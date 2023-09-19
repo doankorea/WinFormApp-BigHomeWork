@@ -20,7 +20,7 @@ namespace fa_icon_demo
         public Login()
         {
 
-
+            
             this.DoubleBuffered = true;
             InitializeComponent();
             if(Properties.Settings.Default.UserName != "" && Properties.Settings.Default.PassWord!= "")

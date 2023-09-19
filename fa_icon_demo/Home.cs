@@ -15,6 +15,7 @@ namespace fa_icon_demo
 {
     public partial class Home : Form
     {
+        
         //Fields
         private IconButton curentBtn;
         private Panel leftBorderBtn;
@@ -158,6 +159,15 @@ namespace fa_icon_demo
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        private void panelMenu_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
 
+        private void panelMenu_MouseEnter(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }

@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.pnlOders = new System.Windows.Forms.FlowLayoutPanel();
+            this.SuspendLayout();
+            // 
+            // pnlOders
+            // 
+            this.pnlOders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.pnlOders.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOders.Location = new System.Drawing.Point(0, 0);
+            this.pnlOders.Name = "pnlOders";
+            this.pnlOders.Size = new System.Drawing.Size(800, 450);
+            this.pnlOders.TabIndex = 0;
+            // 
+            // FormOrders
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pnlOders);
+            this.Name = "FormOrders";
             this.Text = "FormOrders";
+            this.Load += new System.EventHandler(this.FormOrders_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel pnlOders;
     }
 }

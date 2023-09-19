@@ -25,6 +25,11 @@ namespace fa_icon_demo
         }
         public bool checkEmail(String email)
         {
+            if (string.IsNullOrEmpty(email))
+            {
+                return false
+                    ;
+            }
             return Regex.IsMatch(email, @"^[a-zA-Z0-9_.]{3,30}@gmail.com(.vn|)$");
         }
         Modify modify = new Modify();
@@ -56,14 +61,14 @@ namespace fa_icon_demo
                 MessageBox.Show("email in valid");
                 return;
             }
-             if(modify.Accounts("SELECT * FROM Account WHERE email= '" + email +"'").Count!= 0)
+            if (modify.Accounts("SELECT * FROM Account WHERE email= '" + email + "'").Count != 0)
             {
                 MessageBox.Show("Email already exists");
                 return;
             }
-             try
+            try
             {
-                string query= "INSERT INTO Account VALUES ('" + user + "','" + passWord + "','" + email + "')";
+                string query = "INSERT INTO Account VALUES ('" + user + "','" + passWord + "','" + email + "')";
                 modify.Command(query);
                 MessageBox.Show("Success");
                 Login login = new Login();

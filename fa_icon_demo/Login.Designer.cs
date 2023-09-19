@@ -40,21 +40,21 @@
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.txtuser = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.txtpass = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.txtuser = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -191,96 +191,10 @@
             this.panel2.Controls.Add(this.cbrmb);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(248, 49);
+            this.panel2.Location = new System.Drawing.Point(239, 36);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(400, 486);
             this.panel2.TabIndex = 4;
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.BackColor = System.Drawing.Color.Silver;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Xmark;
-            this.iconButton1.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 18;
-            this.iconButton1.Location = new System.Drawing.Point(856, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(28, 20);
-            this.iconButton1.TabIndex = 6;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
-            // 
-            // iconButton6
-            // 
-            this.iconButton6.BackColor = System.Drawing.Color.Silver;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.iconButton6.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 18;
-            this.iconButton6.Location = new System.Drawing.Point(828, 0);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(28, 20);
-            this.iconButton6.TabIndex = 9;
-            this.iconButton6.UseVisualStyleBackColor = false;
-            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.iconButton8);
-            this.panel1.Controls.Add(this.txtuser);
-            this.panel1.Location = new System.Drawing.Point(56, 154);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 40);
-            this.panel1.TabIndex = 37;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label9.Location = new System.Drawing.Point(52, 130);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 21);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "UserName";
-            // 
-            // iconButton8
-            // 
-            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconButton8.Enabled = false;
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            this.iconButton8.IconColor = System.Drawing.Color.Silver;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 25;
-            this.iconButton8.Location = new System.Drawing.Point(262, 5);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(26, 26);
-            this.iconButton8.TabIndex = 31;
-            this.iconButton8.UseVisualStyleBackColor = false;
-            // 
-            // txtuser
-            // 
-            this.txtuser.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtuser.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.ForeColor = System.Drawing.Color.Gainsboro;
-            this.txtuser.Location = new System.Drawing.Point(13, 6);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(296, 25);
-            this.txtuser.TabIndex = 30;
             // 
             // panel3
             // 
@@ -322,6 +236,92 @@
             this.txtpass.Size = new System.Drawing.Size(296, 25);
             this.txtpass.TabIndex = 31;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.iconButton8);
+            this.panel1.Controls.Add(this.txtuser);
+            this.panel1.Location = new System.Drawing.Point(56, 154);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(300, 40);
+            this.panel1.TabIndex = 37;
+            // 
+            // iconButton8
+            // 
+            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconButton8.Enabled = false;
+            this.iconButton8.FlatAppearance.BorderSize = 0;
+            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.iconButton8.IconColor = System.Drawing.Color.Silver;
+            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton8.IconSize = 25;
+            this.iconButton8.Location = new System.Drawing.Point(262, 5);
+            this.iconButton8.Name = "iconButton8";
+            this.iconButton8.Size = new System.Drawing.Size(26, 26);
+            this.iconButton8.TabIndex = 31;
+            this.iconButton8.UseVisualStyleBackColor = false;
+            // 
+            // txtuser
+            // 
+            this.txtuser.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtuser.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuser.ForeColor = System.Drawing.Color.Gainsboro;
+            this.txtuser.Location = new System.Drawing.Point(13, 6);
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(296, 25);
+            this.txtuser.TabIndex = 30;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label9.Location = new System.Drawing.Point(52, 130);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(84, 21);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "UserName";
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.Silver;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Xmark;
+            this.iconButton1.IconColor = System.Drawing.Color.DimGray;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 18;
+            this.iconButton1.Location = new System.Drawing.Point(856, 0);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(28, 20);
+            this.iconButton1.TabIndex = 6;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // iconButton6
+            // 
+            this.iconButton6.BackColor = System.Drawing.Color.Silver;
+            this.iconButton6.FlatAppearance.BorderSize = 0;
+            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.iconButton6.IconColor = System.Drawing.Color.DimGray;
+            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton6.IconSize = 18;
+            this.iconButton6.Location = new System.Drawing.Point(828, 0);
+            this.iconButton6.Name = "iconButton6";
+            this.iconButton6.Size = new System.Drawing.Size(28, 20);
+            this.iconButton6.TabIndex = 9;
+            this.iconButton6.UseVisualStyleBackColor = false;
+            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
+            // 
             // Login
             // 
             this.AllowDrop = true;
@@ -345,10 +345,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -31,22 +31,26 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Forgot));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.txtpass = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btnrcv = new System.Windows.Forms.Button();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.txtpass = new System.Windows.Forms.TextBox();
-            this.txtemail = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.txtemail = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -64,21 +68,59 @@
             // 
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.DimGray;
+            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.btnrcv);
-            this.panel2.Controls.Add(this.iconButton7);
-            this.panel2.Controls.Add(this.iconButton8);
-            this.panel2.Controls.Add(this.txtpass);
-            this.panel2.Controls.Add(this.txtemail);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Location = new System.Drawing.Point(253, 38);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(391, 486);
             this.panel2.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel3.Controls.Add(this.iconButton2);
+            this.panel3.Controls.Add(this.txtpass);
+            this.panel3.Location = new System.Drawing.Point(51, 297);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(300, 40);
+            this.panel3.TabIndex = 39;
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconButton2.Enabled = false;
+            this.iconButton2.FlatAppearance.BorderSize = 0;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Lock;
+            this.iconButton2.IconColor = System.Drawing.Color.Silver;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.IconSize = 25;
+            this.iconButton2.Location = new System.Drawing.Point(259, 7);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(26, 26);
+            this.iconButton2.TabIndex = 32;
+            this.iconButton2.UseVisualStyleBackColor = false;
+            // 
+            // txtpass
+            // 
+            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpass.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpass.ForeColor = System.Drawing.Color.Gainsboro;
+            this.txtpass.Location = new System.Drawing.Point(13, 7);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.PasswordChar = '*';
+            this.txtpass.Size = new System.Drawing.Size(296, 25);
+            this.txtpass.TabIndex = 31;
             // 
             // linkLabel1
             // 
@@ -136,65 +178,6 @@
             this.btnrcv.Text = "Recover password";
             this.btnrcv.UseVisualStyleBackColor = false;
             this.btnrcv.Click += new System.EventHandler(this.btnrcv_Click);
-            // 
-            // iconButton7
-            // 
-            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconButton7.Enabled = false;
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Lock;
-            this.iconButton7.IconColor = System.Drawing.Color.Silver;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 25;
-            this.iconButton7.Location = new System.Drawing.Point(313, 302);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(26, 26);
-            this.iconButton7.TabIndex = 30;
-            this.iconButton7.UseVisualStyleBackColor = false;
-            // 
-            // iconButton8
-            // 
-            this.iconButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconButton8.Enabled = false;
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            this.iconButton8.IconColor = System.Drawing.Color.Silver;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 25;
-            this.iconButton8.Location = new System.Drawing.Point(313, 201);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(26, 26);
-            this.iconButton8.TabIndex = 29;
-            this.iconButton8.UseVisualStyleBackColor = false;
-            // 
-            // txtpass
-            // 
-            this.txtpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtpass.Font = new System.Drawing.Font("Segoe UI Light", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.ForeColor = System.Drawing.Color.Gainsboro;
-            this.txtpass.Location = new System.Drawing.Point(46, 297);
-            this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(296, 36);
-            this.txtpass.TabIndex = 26;
-            // 
-            // txtemail
-            // 
-            this.txtemail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtemail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtemail.Font = new System.Drawing.Font("Segoe UI Light", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtemail.ForeColor = System.Drawing.Color.Gainsboro;
-            this.txtemail.Location = new System.Drawing.Point(46, 196);
-            this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(296, 36);
-            this.txtemail.TabIndex = 25;
             // 
             // label9
             // 
@@ -255,6 +238,46 @@
             this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
             this.iconButton6.MouseHover += new System.EventHandler(this.iconButton6_MouseHover);
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel5.Controls.Add(this.iconButton3);
+            this.panel5.Controls.Add(this.txtemail);
+            this.panel5.Location = new System.Drawing.Point(51, 196);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(300, 40);
+            this.panel5.TabIndex = 48;
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconButton3.Enabled = false;
+            this.iconButton3.FlatAppearance.BorderSize = 0;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Envelope;
+            this.iconButton3.IconColor = System.Drawing.Color.LightGray;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.IconSize = 25;
+            this.iconButton3.Location = new System.Drawing.Point(259, 7);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(26, 26);
+            this.iconButton3.TabIndex = 48;
+            this.iconButton3.UseVisualStyleBackColor = false;
+            // 
+            // txtemail
+            // 
+            this.txtemail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtemail.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtemail.ForeColor = System.Drawing.Color.Gainsboro;
+            this.txtemail.Location = new System.Drawing.Point(13, 7);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.PasswordChar = '*';
+            this.txtemail.Size = new System.Drawing.Size(296, 25);
+            this.txtemail.TabIndex = 31;
+            // 
             // Forgot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,7 +294,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,14 +312,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnrcv;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton8;
-        private System.Windows.Forms.TextBox txtpass;
-        private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private FontAwesome.Sharp.IconButton iconButton1;
         private FontAwesome.Sharp.IconButton iconButton6;
+        private System.Windows.Forms.Panel panel3;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.Panel panel5;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private System.Windows.Forms.TextBox txtemail;
     }
 }
